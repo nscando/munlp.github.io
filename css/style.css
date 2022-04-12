@@ -25,7 +25,7 @@ img {
     width: 100%;
 }
 
-.bg-cover{
+.bg-cover {
     background-size: cover !important;
     background-position: center !important;
 }
@@ -132,6 +132,7 @@ section {
 .btn-outline-light {
     border-radius: 40px;
 }
+
 .btn-brand:hover {
     background-color: #fff;
     color: #0063a0;
@@ -161,7 +162,85 @@ section {
     background-repeat: no-repeat;
 }
 
+.slide3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .slide .display-3 {
     text-transform: uppercase;
     color: #fff;
+
+}
+
+/* Carrusel */
+.owl-prev,
+.owl-next {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    width: 60px !important;
+    height: 60px !important;
+    display: block;
+    display: grid;
+    place-items: center;
+    color: #fff !important;
+    border-radius: 100px;
+    line-height: 0;
+    border-radius: 100px !important;
+    position: absolute;
+    top: 50%;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    transition: all 0.4s ease;
+    margin-top: -30px !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: rgba(8, 173, 255, 0.438) !important;
+}
+
+.owl-dot.active span {
+    background-color: var(--brand) !important;
+}
+
+/* REDES SOCIALES */
+.info-box {
+    align-items: center;
+    display: flex;
+
+}
+
+.info-box img {
+    width: 90px;
+}
+
+/* SERVICIOS */
+
+.servicio {
+    padding: 32px;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+}
+
+.servicio h5 {
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+.servicio img {
+    width: 90px;
+}
+
+.servicio a {
+    text-decoration: none;
 }

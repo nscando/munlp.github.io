@@ -14,7 +14,7 @@
    <title>Municipalidad de Lago Puelo</title>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
    <!--  NAVBAR -->
    <nav class="top-nav" id="home">
       <div class="containter">
@@ -38,7 +38,7 @@
          </div>
       </div>
    </nav>
-   <nav class="navbar navbar-expand-lg navbar-light bg-white">
+   <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
       <div class="container">
          <a class="navbar-brand" href="#">Municipalidad <br>de Lago Puelo</a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -69,28 +69,191 @@
 
    <!-- SLIDER -->
 
-   <div class="slider-wrapper">
+   <div class="slider-wrapper owl-carousel owl-theme" id="hero-slider">
       <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
          <div class="container">
             <div class="row">
                <div class="col-12">
-                  <h6 class="text-uppercase">prueba texto</h6>
-                  <h1 class="display-3">Obras que cambian vidas 1</h1>
+                  <h6 class="text-uppercase text-white">Lorem ipsum dolor sit amet.</h6>
+                  <h1 class="display-3 my-3 text-white text-uppercase">Obras que <br> cambian vidas 1</h1>
                   <a href="#" class="btn btn-brand">Mas info...</a>
-                  <a href="#" class="btn btn-outline-light">Prueba</a>
+                  <a href="#" class="btn btn-outline-light ms-md-3">Prueba</a>
 
                </div>
             </div>
          </div>
       </div>
+
+      <div class="slide2 min-vh-100 bg-cover d-flex align-items-center">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 text-center">
+                  <h6 class="text-uppercase text-white">Lorem ipsum dolor sit amet.</h6>
+                  <h1 class="display-3 my-3 text-white text-uppercase">Prueba titulo <br> del hero centrado 1</h1>
+                  <a href="#" class="btn btn-brand">Mas info...</a>
+                  <a href="#" class="btn btn-outline-light ms-md-3">Prueba</a>
+
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="slide3 min-vh-100 bg-cover d-flex align-items-center">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 text-center">
+                  <h6 class="text-uppercase text-white">Prueba titulo <br> del hero 1</h6>
+                  <h1 class="display-3 my-3 text-white text-uppercase">Obras que <br> cambian vidas 1</h1>
+                  <a href="#" class="btn btn-brand">Mas info...</a>
+                  <a href="#" class="btn btn-outline-light ms-md-3">Prueba</a>
+
+               </div>
+            </div>
+         </div>
+      </div>
+
    </div>
 
+   <!-- SERVICIOS -->
 
+   <section id="servicios" class="text-center">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="intro">
+                  <h1>SERVICIOS</h1>
+                  <h6 class="text-uppercase"> Online</h6>
+               </div>
+            </div>
+         </div>
+         <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+               <div class="servicio">
+                  <a href="#">
+                     <img src="img/icon6.png" alt="">
+                     <h5>Rentas Automotor</h5>
+                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from</p>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+               <div class="servicio">
+                  <a href="#">
+                     <img src="img/icon5.png" alt="">
+                     <h5>Rentas Inmueble</h5>
+                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from</p>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+               <div class="servicio">
+                  <a href="#">
+                     <img src="img/icon4.png" alt="">
+                     <h5>Licitaciones</h5>
+                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from</p>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+               <div class="servicio">
+                  <a href="#">
+                     <img src="img/icon1.png" alt="">
+                     <h5>Pagos</h5>
+                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from</p>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+               <div class="servicio">
+                  <a href="#">
+                     <img src="img/icon2.png" alt="">
+                     <h5>Servicios Publicos</h5>
+                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from</p>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+               <div class="servicio">
+                  <a href="#">
+                     <img src="img/icon3.png" alt="">
+                     <h5>Otros</h5>
+                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from</p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
 
+   <!-- REDES SOCIALES -->
+   <section id="redes">
+      <div class="container-fluid">
+         <div class="row align-items-center">
+            <div class="text-center">
+               <h1 class="mb-25">SEGUINOS </h1>
+               <p class="text-uppercase"><span>y enterate de todas la novedades</span></p>
+               <br>
+            </div>
+
+            <div class="col-md-4 ms-20">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="info-box">
+                        <img src="img/icon6.png" alt="">
+                        <div class="ms-4">
+                           <h5>Digital Marketing</h5>
+                           <p>It is a long established fact that a reader will be distracted by the readable
+                              content of a page </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 mt-4">
+                     <div class="info-box">
+                        <img src="img/icon4.png" alt="">
+                        <div class="ms-4">
+                           <h5>E-mail Marketing</h5>
+                           <p>It is a long established fact that a reader will be distracted by the readable
+                              content of a page </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 mt-4">
+                     <div class="info-box">
+                        <img src="img/icon5.png" alt="">
+                        <div class="ms-4">
+                           <h5>Buisness Marketing</h5>
+                           <p>It is a long established fact that a reader will be distracted by the readable
+                              content of a page </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 offset-md-4">
+               <div class="fb-page" data-href="https://www.facebook.com/munipuelo" data-tabs="timeline" data-width=""
+                  data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false"
+                  data-show-facepile="true">
+                  <blockquote cite="https://www.facebook.com/munipuelo" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/munipuelo">Municipalidad de Lago Puelo</a></blockquote>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
 
    <script src="./js/jquery.min.js"></script>
    <script src="./js/bootstrap.bundle.min.js"></script>
    <script src="./js/owl.carousel.min.js"></script>
+   <script src="./js/app.js"></script>
+   <div id="fb-root"></div>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v13.0"
+      nonce="qxWXtz0P"></script>
 </body>
 
 </html>
