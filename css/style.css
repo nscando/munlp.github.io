@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    --brand: #08abff;
+    --dark: #092032;
+    --body: #516171;
+    --border: rgba(0, 0, 0, 0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: var(--body);
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6,
+.display-1, .display-2, .display-3, .display-4 {
+    font-weight: 700;
+    color: var(--dark);
+}
+
+img {
+    width: 100%;
+}
+
+.bg-cover{
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+a {
+    color: var(--dark);
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--brand);
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* NAVBAR */
+.top-nav {
+    background-color: #00a3fe;
+    color: #fff;
+    padding: 10px;
+}
+
+.top-nav p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.top-nav span,
+.top-nav i {
+    vertical-align: middle;
+}
+
+.navbar {
+    box-shadow: var(--shadow);
+}
+
+.social-icons a {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 25px;
+}
+
+.social-icons a:hover {
+    background-color: #fff;
+    color: #0063a0;
+}
+
+.navbar .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 550;
+    color: var(--dark);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link {
+    color: var(--brand);
+}
+
+.navbar-brand {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+
+.btn {
+    padding: 8px 26px;
+    vertical-align: middle;
+}
+
+.btn-brand {
+    border-color: var(--brand);
+    background-color: var(--brand);
+    color: #fff;
+    border-radius: 40px;
+}
+
+.btn-brand1 {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    color: #08abff;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 25px;
+}
+
+.btn-outline-light {
+    border-radius: 40px;
+}
+.btn-brand:hover {
+    background-color: #fff;
+    color: #0063a0;
+}
+
+/* SLIDE */
+
+.slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide .display-3 {
+    text-transform: uppercase;
+    color: #fff;
+}
